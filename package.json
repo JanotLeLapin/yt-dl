@@ -5,11 +5,12 @@
   "author": "Joseph Daly",
   "license": "MIT",
   "scripts": {
-      "start": "node .",
-      "test": "nodemon .",
-      "push": "git push -u origin master"
+    "start": "node .",
+    "test": "nodemon .",
+    "push": "git push -u origin master"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "yt-search": "^2.3.1",
