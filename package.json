@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
       "start": "node .",
-      "test": "nodemon ."
+      "test": "nodemon .",
+      "push": "git push -u origin master"
   },
   "dependencies": {
     "cors": "^2.8.5",
