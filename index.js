@@ -9,6 +9,7 @@ app.use(cors());
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 
+// Handle search requests
 app.post('/api/search', (req, res) => {
     let query = req.body.query;
     if (!query) return res.status(400).json({ message: 'Missing data.' });
