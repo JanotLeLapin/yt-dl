@@ -4,7 +4,7 @@ import './Video.css';
 
 class Video extends React.Component {
     download () {
-        window.location.replace('http://ytdl-download.herokuapp.com/api/download/' + this.props.id);
+        window.location.replace('/api/download/' + this.props.id);
     }
 
     render () {
